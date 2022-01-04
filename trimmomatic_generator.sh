@@ -1,0 +1,2 @@
+#gunzip /scratch/mm5jy/methylomics/all_samples/*
+for i in `ls -1 /scratch/mm5jy/methylomics/all_samples/*1*.fastq | sed 's/\_1.fastq//'`; do echo java -jar \$EBROOTTRIMMOMATIC/trimmomatic-0.39.jar PE -threads 39 -phred33 $i\_1.fastq $i\_2.fastq $i\_1_paired.fq.gz $i\_1_unpaired.fq.gz $i\_2_paired.fq.gz $i\_2_unpaired.fq.gz ILLUMINACLIP:\$EBROOTTRIMMOMATIC/adapters/TruSeq2-PE.fa:2:30:10 LEADING:3 TRAILING:3 MINLEN:36 >> trim.sh; done

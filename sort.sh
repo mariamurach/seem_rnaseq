@@ -1,0 +1,12 @@
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/colonbiopsy1.bam colonbiopsy1Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/colonbiopsy2.bam colonbiopsy2Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/colonbiopsy3.bam colonbiopsy3Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/rep_tech1_1.bam rep_tech1_1Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/rep_tech1_2.bam rep_tech1_2Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/rep_tech1_3.bam rep_tech1_3Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/rep_tech2_1.bam rep_tech2_1Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/rep_tech2_2.bam rep_tech2_2Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/rep_tech2_3.bam rep_tech2_3Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/rep_tech3_1.bam rep_tech3_1Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/rep_tech3_2.bam rep_tech3_2Aligned.sortedByCoord.out.bam
+samtools sort -@ 39 -m 4G -o /scratch/mm5jy/esthermari/star/sorted/rep_tech3_3.bam rep_tech3_3Aligned.sortedByCoord.out.bam

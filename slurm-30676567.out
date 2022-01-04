@@ -1,0 +1,26 @@
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 199,169
+[index] number of k-mers: 123,898,639
+[index] number of equivalence classes: 810,264
+[quant] running in paired-end mode
+[quant] will process pair 1: /scratch/mm5jy/methylomics/all_samples/s16_1_paired.fq
+                             /scratch/mm5jy/methylomics/all_samples/s16_2_paired.fq
+[quant] finding pseudoalignments for the reads ... done
+[quant] learning parameters for sequence specific bias
+[quant] processed 24,881,023 reads, 22,199,412 reads pseudoaligned
+[quant] estimated average fragment length: 164.47
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 1,260 rounds
+
+
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 199,169
+[index] number of k-mers: 123,898,639
+[index] number of equivalence classes: 810,264
+[quant] running in paired-end mode
+[quant] will process pair 1: /scratch/mm5jy/methylomics/all_samples/s20_1_paired.fq
+                             /scratch/mm5jy/methylomics/all_samples/s20_2_paired.fq
+[quant] finding pseudoalignments for the reads ...
